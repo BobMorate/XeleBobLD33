@@ -3,3 +3,7 @@
 
 
 //cambio desde el portátil de nuevo, me lo actualizó solo o no me di cuenta de a qué di xD
+
+
+
+//pues esto está escrito a las 20:15 desde el sobremesa, ya arreglado el problema de actualización, debería propagar hacia el github sin problema B-)
