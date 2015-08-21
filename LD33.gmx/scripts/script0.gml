@@ -7,3 +7,5 @@
 
 
 //pues esto está escrito a las 20:15 desde el sobremesa, ya arreglado el problema de actualización, debería propagar hacia el github sin problema B-)
+
+//y esto 20:23 portátil
