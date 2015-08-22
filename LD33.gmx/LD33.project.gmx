@@ -27,8 +27,8 @@
     <object>objects\obj_separator_placeholder</object>
   </objects>
   <rooms name="rooms">
-    <room>rooms\rm_sandbox</room>
     <room>rooms\rm_level1_1alt</room>
+    <room>rooms\rm_sandbox</room>
     <room>rooms\rm_level1_1</room>
   </rooms>
   <help>
