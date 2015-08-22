@@ -26,6 +26,7 @@
   <paths name="paths"/>
   <scripts name="scripts">
     <script>scripts\collisions.gml</script>
+    <script>scripts\enemy_collisions.gml</script>
     <script>scripts\hurt_state.gml</script>
     <scripts name="Player scripts">
       <script>scripts\player1_move_state.gml</script>
