@@ -7,10 +7,15 @@
   <sounds name="sound"/>
   <sprites name="sprites">
     <sprite>sprites\sprite0</sprite>
-    <sprite>sprites\spr_PH_player</sprite>
-    <sprite>sprites\spr_solid</sprite>
-    <sprite>sprites\spr_floor_placeholder</sprite>
-    <sprite>sprites\spr_separator_placeholder</sprite>
+    <sprites name="Placeholders">
+      <sprite>sprites\spr_separator_placeholder</sprite>
+      <sprite>sprites\spr_PH_attack</sprite>
+      <sprite>sprites\spr_solid</sprite>
+      <sprite>sprites\spr_floor_placeholder</sprite>
+      <sprite>sprites\spr_PH_enemy</sprite>
+      <sprite>sprites\spr_PH_dead_enemy</sprite>
+      <sprite>sprites\spr_PH_player</sprite>
+    </sprites>
   </sprites>
   <backgrounds name="background">
     <background>background\bck_floor1_1</background>
@@ -25,10 +30,13 @@
     <object>objects\obj_player</object>
     <object>objects\obj_solid</object>
     <object>objects\obj_separator_placeholder</object>
+    <object>objects\obj_slash</object>
+    <object>objects\obj_enemy</object>
+    <object>objects\obj_dead_enemy</object>
   </objects>
   <rooms name="rooms">
-    <room>rooms\rm_level1_1alt</room>
     <room>rooms\rm_sandbox</room>
+    <room>rooms\rm_level1_1alt</room>
     <room>rooms\rm_level1_1</room>
   </rooms>
   <help>
