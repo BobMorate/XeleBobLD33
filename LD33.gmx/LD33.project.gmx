@@ -7,12 +7,24 @@
   <sounds name="sound"/>
   <sprites name="sprites">
     <sprite>sprites\sprite0</sprite>
+    <sprite>sprites\spr_floor_placeholder</sprite>
+    <sprite>sprites\spr_separator_placeholder</sprite>
   </sprites>
-  <backgrounds name="background"/>
+  <backgrounds name="background">
+    <background>background\bck_floor1_1</background>
+    <background>background\bck_floor_tileset</background>
+  </backgrounds>
   <paths name="paths"/>
   <scripts name="scripts">
     <script>scripts\script0.gml</script>
   </scripts>
+  <objects name="objects">
+    <object>objects\obj_separator_placeholder</object>
+  </objects>
+  <rooms name="rooms">
+    <room>rooms\rm_level1_1alt</room>
+    <room>rooms\rm_level1_1</room>
+  </rooms>
   <help>
     <rtf>help.rtf</rtf>
   </help>
