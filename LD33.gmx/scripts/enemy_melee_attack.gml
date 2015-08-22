@@ -29,5 +29,5 @@ if  can_attack = 1 && facing = 4
     alarm[0]=15;
     }    
     
-hspd = 0;
-vspd = 0;
+//hspd = 0;
+//vspd = 0;

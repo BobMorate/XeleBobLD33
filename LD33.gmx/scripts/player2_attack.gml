@@ -1,5 +1,5 @@
 ///player1_attack_state()
-var space = keyboard_check(vk_space) || (gamepad_button_check(0,gp_face1));
+var space = keyboard_check(vk_rshift) || (gamepad_button_check(1,gp_face1));
 
 hspd = 0;
 vspd = 0;

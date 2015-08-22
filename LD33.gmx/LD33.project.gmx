@@ -16,6 +16,7 @@
       <sprite>sprites\spr_PH_enemy</sprite>
       <sprite>sprites\spr_PH_dead_enemy</sprite>
       <sprite>sprites\spr_PH_player</sprite>
+      <sprite>sprites\spr_PH_Player2</sprite>
     </sprites>
   </sprites>
   <backgrounds name="background">
@@ -28,16 +29,18 @@
     <script>scripts\hurt_state.gml</script>
     <scripts name="Player scripts">
       <script>scripts\player1_move_state.gml</script>
+      <script>scripts\player2_move_state.gml</script>
       <script>scripts\player1_attack.gml</script>
+      <script>scripts\player2_attack.gml</script>
     </scripts>
     <scripts name="Enemy scripts">
       <script>scripts\chase.gml</script>
       <script>scripts\enemy_idle.gml</script>
-      <script>scripts\enemy_melee_attack.gml</script>
     </scripts>
   </scripts>
   <objects name="objects">
     <object>objects\obj_player</object>
+    <object>objects\obj_player2</object>
     <object>objects\obj_solid</object>
     <object>objects\obj_separator_placeholder</object>
     <object>objects\obj_slash</object>
@@ -45,6 +48,7 @@
     <object>objects\obj_enemy</object>
     <object>objects\obj_dead_enemy</object>
     <object>objects\obj_controller</object>
+    <object>objects\obj_parent_player</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_level1_1alt</room>

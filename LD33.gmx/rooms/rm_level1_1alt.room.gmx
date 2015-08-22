@@ -321,6 +321,7 @@
     <instance objName="obj_solid" x="1776" y="416" name="inst_EED9DC9E" locked="0" code="" scaleX="7" scaleY="2" colour="4294967295" rotation="0"/>
     <instance objName="obj_separator_placeholder" x="1984" y="384" name="inst_8833A030" locked="0" code="" scaleX="7" scaleY="2" colour="4294967295" rotation="0"/>
     <instance objName="obj_solid" x="2096" y="416" name="inst_0E5FE21E" locked="0" code="" scaleX="7" scaleY="2" colour="4294967295" rotation="0"/>
+    <instance objName="obj_player2" x="5104" y="1680" name="inst_1C3814B9" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles>
     <tile bgName="bck_floor_tileset" x="864" y="32" w="32" h="32" xo="192" yo="32" id="10000147" name="inst_D9130E3F" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>

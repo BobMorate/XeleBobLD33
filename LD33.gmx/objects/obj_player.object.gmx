@@ -5,7 +5,7 @@
   <visible>-1</visible>
   <depth>0</depth>
   <persistent>0</persistent>
-  <parentName>&lt;undefined&gt;</parentName>
+  <parentName>obj_parent_player</parentName>
   <maskName>&lt;undefined&gt;</maskName>
   <events>
     <event eventtype="0" enumb="0">
@@ -135,7 +135,7 @@ state = player1_move_state;
           <argument>
             <kind>1</kind>
             <string>//Call local variables
-var space = keyboard_check(vk_space);
+var space = keyboard_check(vk_space) || (gamepad_button_check(0,gp_face1));
 
 //Control the player state
 script_execute(state);

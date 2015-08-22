@@ -1,9 +1,12 @@
-///player1_move_state()
-gamepad_set_axis_deadzone(0,0.2)
-var up = keyboard_check(vk_up) || (gamepad_axis_value(0,gp_axislv) < 0) || (gamepad_button_check(0,gp_padu)); 
-var down = keyboard_check(vk_down) || (gamepad_axis_value(0,gp_axislv) > 0);
-var left = keyboard_check(vk_left) || (gamepad_axis_value(0,gp_axislh) < 0);
-var right = keyboard_check(vk_right) || (gamepad_axis_value(0,gp_axislh) > 0);
+///player2_move_state()
+gamepad_set_axis_deadzone(1,0.2)
+var up = keyboard_check(ord('W')) || (gamepad_axis_value(1,gp_axislv) < 0); 
+var down = keyboard_check(ord('S')) || (gamepad_axis_value(1,gp_axislv) > 0);
+var left = keyboard_check(ord('A')) || (gamepad_axis_value(1,gp_axislh) < 0);
+var right = keyboard_check(ord('D')) || (gamepad_axis_value(1,gp_axislh) > 0);
+
+
+
 
 
 if (up) && can_move = 1
