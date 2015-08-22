@@ -28,9 +28,12 @@ if distance_to_object(obj_player) > 100
     state = enemy_idle
     }
 
-if distance_to_object(obj_player) < 32
+if distance_to_object(obj_player) < 32 && can_attack = 1
     {
-    instance_create(x+lengthdir_x(10,direction),y+lengthdir_y(10,direction),obj_enemyslash)
+    instance_create(x+lengthdir_x(40,direction),y+lengthdir_y(40,direction),obj_enemyslash)
+    can_attack = 0;
+    alarm[0] = 25;
+    }
 /*   BUG - Slash no aparece en la dirección que debe.
     if can_attack = 1 && facing = 1 
     {
@@ -59,7 +62,7 @@ else if  can_attack = 1 && facing = 4
     can_attack = 0;
     alarm[0]=15;
     }    */
-}
+
      
     
 
