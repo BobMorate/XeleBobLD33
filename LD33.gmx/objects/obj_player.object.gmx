@@ -139,7 +139,7 @@ var space = keyboard_check(vk_space);
 
 //Control the player state
 script_execute(state);
-    
+image_angle = direction;    //TO BE CHANGED FOR ANOTHER SCRIPT MANAGING THE SPRITE
 //Enable attacks
 if space &amp;&amp; can_attack = 1
     {
