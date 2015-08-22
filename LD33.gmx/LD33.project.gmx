@@ -38,6 +38,7 @@
       <script>scripts\chase.gml</script>
       <script>scripts\enemy_idle.gml</script>
     </scripts>
+    <script>scripts\cameralock.gml</script>
   </scripts>
   <objects name="objects">
     <object>objects\obj_player</object>
@@ -48,7 +49,7 @@
     <object>objects\obj_enemyslash</object>
     <object>objects\obj_enemy</object>
     <object>objects\obj_dead_enemy</object>
-    <object>objects\obj_controller</object>
+    <object>objects\obj_camera</object>
     <object>objects\obj_parent_player</object>
   </objects>
   <rooms name="rooms">

@@ -1,5 +1,6 @@
 ///chase()
 var nearplayer = instance_nearest(x,y,obj_parent_player);
+
 //AI - Behavior
 move_towards_point(nearplayer.x, nearplayer.y, 2);
 
@@ -43,4 +44,3 @@ if distance_to_object(obj_parent_player) < 10
     {
     speed = 0
     }
-
