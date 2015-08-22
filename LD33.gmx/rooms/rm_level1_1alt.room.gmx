@@ -307,6 +307,15 @@
     <instance objName="obj_solid" x="5056" y="1408" name="inst_11E89DBA" locked="0" code="" scaleX="4" scaleY="4" colour="4294967295" rotation="0"/>
     <instance objName="obj_solid" x="4864" y="1648" name="inst_C911F847" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_solid" x="4928" y="1712" name="inst_A67AC9BD" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_enemy" x="5200" y="1392" name="inst_2A57CAD7" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_enemy" x="5296" y="1168" name="inst_7310EAEC" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_enemy" x="5680" y="1248" name="inst_4D3D60F7" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_enemy" x="5552" y="1488" name="inst_33C490EF" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_enemy" x="5520" y="1760" name="inst_C6328BD7" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_enemy" x="5888" y="1616" name="inst_ADFBE7F3" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_enemy" x="6032" y="1456" name="inst_8E7A21FF" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_enemy" x="6080" y="1168" name="inst_60C55778" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_enemy" x="5968" y="1120" name="inst_4B871F9A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles>
     <tile bgName="bck_floor_tileset" x="864" y="32" w="32" h="32" xo="192" yo="32" id="10000147" name="inst_D9130E3F" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
