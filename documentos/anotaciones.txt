@@ -1,0 +1,8 @@
+En el tileset bck_floor_tileset usado en la rm-level_1alt:
+
+Layer 1.000.000 para suelo (lo más bajo)
+
+Layer 500 para muros y objetos apoyados en el suelo.
+
+
+Quedan 499 niveles por si queremos poner tiles más arriba en el eje z.
