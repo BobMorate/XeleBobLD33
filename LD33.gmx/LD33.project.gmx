@@ -46,6 +46,9 @@
     <sprite>sprites\spr_slash</sprite>
     <sprite>sprites\spr_enemyslash</sprite>
     <sprite>sprites\spr_medpack</sprite>
+    <sprite>sprites\spr_bitmapfont</sprite>
+    <sprite>sprites\spr_playerdamagefont</sprite>
+    <sprite>sprites\spr_healingfont</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\bck_floor1_1</background>
@@ -84,6 +87,9 @@
       <object>objects\obj_separator_placeholder</object>
     </objects>
     <object>objects\obj_medpack</object>
+    <object>objects\obj_damage</object>
+    <object>objects\obj_playerdamage</object>
+    <object>objects\obj_playerheal</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_level1_1alt</room>

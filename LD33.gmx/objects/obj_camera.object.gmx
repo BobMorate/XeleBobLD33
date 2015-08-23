@@ -25,11 +25,7 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>//CAMERA CONTROL
-//Hold position between both players (End Step)
-//Follow the camera object
-//Create "view blockers"
-
+            <string>fntBitmapFont = font_add_sprite(spr_bitmapfont, ord("!"), 1, 1);
 </string>
           </argument>
         </arguments>
@@ -91,12 +87,16 @@ if instance_exists(obj_player2)
           <argument>
             <kind>1</kind>
             <string>//Set the GUI size to the view size
-display_set_gui_size(320,240);
+display_set_gui_size(640,480);
+draw_set_font(fntBitmapFont);
+
 //Display player's health (replace with health bar)
-draw_text(30,30,("HP: "+string(obj_player.hp)));
+
+draw_text_transformed_colour(30,30,"Player 1 HP: "+string(obj_player.hp),0.3,0.3,0,c_white,c_white,c_white,c_white,image_alpha);
+
 if instance_exists(obj_player2)
     {
-    draw_text(30,70,("HP: "+string(obj_player2.hp)));
+    draw_text_transformed_colour(30,70,"Player 2 HP: "+string(obj_player2.hp),0.3,0.3,0,c_white,c_white,c_white,c_white,image_alpha);
     }
 </string>
           </argument>

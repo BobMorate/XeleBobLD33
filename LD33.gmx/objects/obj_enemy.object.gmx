@@ -168,6 +168,8 @@ if distance_to_object(obj_parent_player) &lt;= 60
             <kind>1</kind>
             <string>if can_be_hurt = 1
     {
+    i = instance_create(x,y,obj_damage);
+    i.str = string("5")
     hp -= 5   
     state = hurt_state
     }

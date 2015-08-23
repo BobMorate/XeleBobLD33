@@ -175,6 +175,8 @@ y+=vspd;
           <argument>
             <kind>1</kind>
             <string>hp += 20;
+i = instance_create(x,y,obj_playerheal);
+    i.str = string("20")
 if hp &gt; 50  
     {
     hp = 50
@@ -209,6 +211,8 @@ with other
             <kind>1</kind>
             <string>if can_be_hurt = 1
     {
+    i = instance_create(x,y,obj_playerdamage);
+    i.str = string("5")
     hp -= 5;    
     }
 
