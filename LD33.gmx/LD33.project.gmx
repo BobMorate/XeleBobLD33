@@ -6,6 +6,26 @@
   <NewExtensions/>
   <sounds name="sound"/>
   <sprites name="sprites">
+    <sprites name="Player1Sprites">
+      <sprite>sprites\spr_player1_down</sprite>
+      <sprite>sprites\spr_player1_up</sprite>
+      <sprite>sprites\spr_player1_right</sprite>
+      <sprite>sprites\spr_player1_left</sprite>
+      <sprite>sprites\spr_player1_downright</sprite>
+      <sprite>sprites\spr_player1_downleft</sprite>
+      <sprite>sprites\spr_player1_upright</sprite>
+      <sprite>sprites\spr_player1_upleft</sprite>
+    </sprites>
+    <sprites name="Player2Sprites">
+      <sprite>sprites\spr_player2_down</sprite>
+      <sprite>sprites\spr_player2_up</sprite>
+      <sprite>sprites\spr_player2_right</sprite>
+      <sprite>sprites\spr_player2_left</sprite>
+      <sprite>sprites\spr_player2_downright</sprite>
+      <sprite>sprites\spr_player2_downleft</sprite>
+      <sprite>sprites\spr_player2_upright</sprite>
+      <sprite>sprites\spr_player2_upleft</sprite>
+    </sprites>
     <sprite>sprites\sprite0</sprite>
     <sprites name="Placeholders">
       <sprite>sprites\spr_separator_placeholder</sprite>
@@ -18,6 +38,10 @@
       <sprite>sprites\spr_PH_player</sprite>
       <sprite>sprites\spr_PH_Player2</sprite>
       <sprite>sprites\spr_PH_Beam</sprite>
+    </sprites>
+    <sprites name="enemysprites">
+      <sprite>sprites\spr_enemy</sprite>
+      <sprite>sprites\spr_deadenemy</sprite>
     </sprites>
   </sprites>
   <backgrounds name="background">

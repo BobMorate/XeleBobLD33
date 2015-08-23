@@ -44,3 +44,4 @@ if distance_to_object(obj_parent_player) < 10
     {
     speed = 0
     }
+image_speed = 0.3;
