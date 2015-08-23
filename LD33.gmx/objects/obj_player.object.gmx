@@ -109,8 +109,8 @@ state = player1_move_state;
             <kind>1</kind>
             <string>if hp &lt;=0   
     {
-    show_message("You're dead");
-    room_restart();
+    instance_create(x,y,obj_player1_dead);
+    instance_destroy();
     }
 </string>
           </argument>
@@ -152,6 +152,38 @@ collisions(obj_solid);
 
 x+=hspd;
 y+=vspd;
+</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
+    <event eventtype="4" ename="obj_bossslash">
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>if can_be_hurt = 1
+    {
+    i = instance_create(x,y,obj_playerdamage);
+    i.str = string("10")
+    hp -= 10;    
+    part_particles_create(global.ps, x, y, global.part_blood, 30);
+    }
+
+state = hurt_state
+
 </string>
           </argument>
         </arguments>
@@ -213,7 +245,8 @@ with other
     {
     i = instance_create(x,y,obj_playerdamage);
     i.str = string("5")
-    hp -= 5;    
+    hp -= 50;    
+    part_particles_create(global.ps, x, y, global.part_blood, 10);
     }
 
 state = hurt_state

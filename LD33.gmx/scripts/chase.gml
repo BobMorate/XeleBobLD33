@@ -2,8 +2,10 @@
 var nearplayer = instance_nearest(x,y,obj_parent_player);
 
 //AI - Behavior
-move_towards_point(nearplayer.x, nearplayer.y, 2);
-
+if instance_exists(obj_player) or instance_exists(obj_player2)
+    {
+    move_towards_point(nearplayer.x, nearplayer.y, 2);
+    }
 
 if hspeed < 0 
     {
