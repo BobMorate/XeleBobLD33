@@ -124,4 +124,3 @@ if direction == 315 {  // down & right
         exit
 
 }
-

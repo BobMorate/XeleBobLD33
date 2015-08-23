@@ -25,9 +25,10 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>image_speed=0.5;
-image_angle = obj_player.direction
-
+            <string>
+owner = other.id;
+image_speed=0.5;
+image_angle = owner.direction;
 </string>
           </argument>
         </arguments>

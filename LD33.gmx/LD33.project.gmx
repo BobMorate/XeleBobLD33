@@ -43,6 +43,9 @@
       <sprite>sprites\spr_enemy</sprite>
       <sprite>sprites\spr_deadenemy</sprite>
     </sprites>
+    <sprite>sprites\spr_slash</sprite>
+    <sprite>sprites\spr_enemyslash</sprite>
+    <sprite>sprites\spr_medpack</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\bck_floor1_1</background>
@@ -70,7 +73,6 @@
     <object>objects\obj_player</object>
     <object>objects\obj_player2</object>
     <object>objects\obj_solid</object>
-    <object>objects\obj_separator_placeholder</object>
     <object>objects\obj_slash</object>
     <object>objects\obj_enemyslash</object>
     <object>objects\obj_enemy</object>
@@ -78,11 +80,14 @@
     <object>objects\obj_camera</object>
     <object>objects\obj_parent_player</object>
     <object>objects\obj_beam</object>
+    <objects name="Placeholder objects">
+      <object>objects\obj_separator_placeholder</object>
+    </objects>
+    <object>objects\obj_medpack</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_level1_1alt</room>
     <room>rooms\rm_sandbox</room>
-    <room>rooms\rm_level1_1</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>
