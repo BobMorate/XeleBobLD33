@@ -1,8 +1,32 @@
 En el tileset bck_floor_tileset usado en la rm-level_1alt:
-
 Layer 1.000.000 para suelo (lo más bajo)
-
 Layer 500 para muros y objetos apoyados en el suelo.
-
-
 Quedan 499 niveles por si queremos poner tiles más arriba en el eje z.
+
+
+
+Acortar el juego y el mapa:
+1.- Obviar el pasillo descendente de la zona izquierda, damos directamente al almacén
+2.- Acortar la primera cueva y que el miniboss esté directamente en la puerta de salida del edificio principal, y que esté bloqueada igual
+3.- que la segunda cueva sea más corta también, poco más que el jefe y tal
+
+
+
+
+
+
+Lista de efectos de sonido:
+
+Player 1 dañado (gruñido)
+Player 2 dañado (gruñido 2)
+Player 1 muerto (aaaaaaaaaaargh)
+Player 2 muerto (aaaaaaaaaaaargh 2)
+Player 1 slash
+Player 2 slash
+Civil herido
+Civil Muerto
+Soldado herido x3
+Soldado muerto x3
+Disparos?
+Coger item
+"Attention" de antes de un miniboss
