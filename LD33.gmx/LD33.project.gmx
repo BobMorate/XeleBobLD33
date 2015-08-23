@@ -47,6 +47,7 @@
   <backgrounds name="background">
     <background>background\bck_floor1_1</background>
     <background>background\bck_floor_tileset</background>
+    <background>background\bck_tileset</background>
   </backgrounds>
   <paths name="paths"/>
   <scripts name="scripts">
