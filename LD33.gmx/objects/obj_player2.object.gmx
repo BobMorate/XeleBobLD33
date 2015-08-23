@@ -135,7 +135,7 @@ state = player2_move_state;
           <argument>
             <kind>1</kind>
             <string>//Call local variables
-var space = keyboard_check(vk_space) || (gamepad_button_check(0,gp_face1));
+var space = keyboard_check(vk_rshift) || (gamepad_button_check(1,gp_face1));
 
 //Control the player state
 script_execute(state);

@@ -322,6 +322,7 @@
     <instance objName="obj_player" x="256" y="272" name="inst_A2727657" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_player2" x="256" y="432" name="inst_9EBD5E04" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_camera" x="368" y="208" name="inst_6773B429" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_enemy" x="640" y="272" name="inst_C0789BBB" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles>
     <tile bgName="bck_floor_tileset" x="864" y="32" w="32" h="32" xo="192" yo="32" id="10000147" name="inst_D9130E3F" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
