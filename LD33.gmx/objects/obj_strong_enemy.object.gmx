@@ -167,7 +167,7 @@ if distance_to_object(obj_parent_player) &lt;= 120
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>
+            <string>var blood;
 
 if can_be_hurt = 1
     {
@@ -176,6 +176,15 @@ if can_be_hurt = 1
     i.str = string("5")
     hp -= 5   
     state = hurt_state
+   if (hp &lt; 1)
+        {
+        blood = 50;
+        }
+    else
+        {
+        blood = 10;
+        }
+    part_particles_create(global.ps, x, y, global.part_blood, blood);
     
     audio_play_sound(soldier_hurt2, 3, false);  
     }

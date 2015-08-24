@@ -98,12 +98,17 @@
       <sprite>sprites\spr_box</sprite>
       <sprite>sprites\spr_closet</sprite>
     </sprites>
+    <sprite>sprites\sprite50</sprite>
+    <sprite>sprites\spr_title_screen</sprite>
+    <sprite>sprites\spr_button</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\bck_floor1_1</background>
     <background>background\bck_floor_tileset</background>
     <background>background\bck_tileset</background>
     <background>background\bck_cavetiles</background>
+    <background>background\bck_pod</background>
+    <background>background\background5</background>
   </backgrounds>
   <paths name="paths"/>
   <scripts name="scripts">
@@ -157,8 +162,10 @@
       <object>objects\obj_restart</object>
     </objects>
     <object>objects\obj_closet</object>
+    <object>objects\obj_titlescreen</object>
   </objects>
   <rooms name="rooms">
+    <room>rooms\room2</room>
     <room>rooms\rm_level1_1alt</room>
     <room>rooms\rm_sandbox</room>
   </rooms>
