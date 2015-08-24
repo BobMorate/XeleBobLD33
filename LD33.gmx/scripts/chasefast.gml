@@ -1,4 +1,4 @@
-///chase
+///chasefast
 
 //AI - Behavior
 if !instance_exists(obj_player) and !instance_exists(obj_player2)
@@ -7,7 +7,7 @@ if !instance_exists(obj_player) and !instance_exists(obj_player2)
     }
     
 var nearplayer = instance_nearest(x,y,obj_parent_player);
-move_towards_point(nearplayer.x, nearplayer.y, 2);
+move_towards_point(nearplayer.x, nearplayer.y, 4);
 
 if hspeed < 0 
     {
@@ -29,7 +29,7 @@ if vspeed < 0
     facing = 4
     }
 
-if distance_to_object(nearplayer) > 100
+if distance_to_object(nearplayer) > 240
     {
     state = enemy_idle
     }

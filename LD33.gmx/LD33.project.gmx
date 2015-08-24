@@ -95,12 +95,15 @@
       <sprite>sprites\spr_bitmapfont</sprite>
       <sprite>sprites\spr_playerdamagefont</sprite>
       <sprite>sprites\spr_healingfont</sprite>
+      <sprite>sprites\spr_box</sprite>
+      <sprite>sprites\spr_closet</sprite>
     </sprites>
   </sprites>
   <backgrounds name="background">
     <background>background\bck_floor1_1</background>
     <background>background\bck_floor_tileset</background>
     <background>background\bck_tileset</background>
+    <background>background\bck_cavetiles</background>
   </backgrounds>
   <paths name="paths"/>
   <scripts name="scripts">
@@ -116,6 +119,7 @@
     </scripts>
     <scripts name="Enemy scripts">
       <script>scripts\chase.gml</script>
+      <script>scripts\chasefast.gml</script>
       <script>scripts\bosschase.gml</script>
       <script>scripts\enemy_idle.gml</script>
       <script>scripts\boss_idle.gml</script>
@@ -152,6 +156,7 @@
       <object>objects\obj_parent_player</object>
       <object>objects\obj_restart</object>
     </objects>
+    <object>objects\obj_closet</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_level1_1alt</room>

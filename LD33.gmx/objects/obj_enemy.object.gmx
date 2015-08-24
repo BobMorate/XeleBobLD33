@@ -141,7 +141,7 @@ enemy_collisions(obj_solid) //does not work for some reason
 
 if distance_to_object(obj_parent_player) &lt;= 60
     {
-    state = chase
+    state = chase;
     }
 
 

@@ -27,8 +27,10 @@
             <kind>1</kind>
             <string>audio_play_sound(p1_p2_attack, 2, false);
 image_speed=0.5;
-image_angle = obj_player.direction
-
+with (obj_parent_player)
+    {
+    image_angle = other.direction
+    }
 </string>
           </argument>
         </arguments>

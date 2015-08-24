@@ -139,9 +139,9 @@ x += hspd;
 y += vspd;
 enemy_collisions(obj_solid) //does not work for some reason
 
-if distance_to_object(obj_parent_player) &lt;= 60
+if distance_to_object(obj_parent_player) &lt;= 120
     {
-    state = chase
+    state = chasefast;
     }
 
 
