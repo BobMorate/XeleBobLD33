@@ -108,7 +108,7 @@ state = enemy_idle
             <string>if hp &lt;= 0
     {
     audio_play_sound(soldier_dies2, 3, false);
-    instance_create(x,y,obj_dead_enemy);
+    instance_create(x,y,obj_dead_strong_enemy);
     instance_destroy();
     }
 </string>
