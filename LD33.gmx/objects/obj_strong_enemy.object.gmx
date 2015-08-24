@@ -107,6 +107,7 @@ state = enemy_idle
             <kind>1</kind>
             <string>if hp &lt;= 0
     {
+    audio_play_sound(soldier_dies2, 3, false);
     instance_create(x,y,obj_dead_enemy);
     instance_destroy();
     }
@@ -166,12 +167,17 @@ if distance_to_object(obj_parent_player) &lt;= 60
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>if can_be_hurt = 1
+            <string>
+
+if can_be_hurt = 1
     {
+    audio_play_sound(soldier_hit, 3, false);
     i = instance_create(x,y,obj_damage);
     i.str = string("5")
     hp -= 5   
     state = hurt_state
+    
+    audio_play_sound(soldier_hurt2, 3, false);  
     }
 
 </string>

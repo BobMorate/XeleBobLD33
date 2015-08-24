@@ -109,6 +109,7 @@ state = boss_idle
             <kind>1</kind>
             <string>if hp &lt;= 0
     {
+    audio_play_sound(boss_dies,1,false);
     instance_create(x,y,obj_dead_boss);
     instance_destroy();
     }
@@ -170,12 +171,17 @@ if distance_to_object(obj_parent_player) &lt;= 200 //tweak!
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>if can_be_hurt = 1
+            <string>
+
+
+if can_be_hurt = 1
     {
+    audio_play_sound(boss_hit,5,false);
     i = instance_create(x,y,obj_damage);
     i.str = string("5")
     hp -= 5   
     state = bosshurt_state
+    audio_play_sound(boss_hurt,3,false);
     }
 
 </string>

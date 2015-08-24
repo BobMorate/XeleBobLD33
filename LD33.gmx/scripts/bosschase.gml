@@ -1,9 +1,16 @@
-///chase()
-var nearplayer = instance_nearest(x,y,obj_parent_player);
+///bosschase()
+
 
 //AI - Behavior
+if !instance_exists(obj_player) and !instance_exists(obj_player2)
+    {
+    exit
+    }
+    
+var nearplayer = instance_nearest(x,y,obj_parent_player);
 move_towards_point(nearplayer.x, nearplayer.y, 2);
 
+    
 //Changes the direction of the sprite depending on its angle
 if direction > 0 && (direction < 30)
     {

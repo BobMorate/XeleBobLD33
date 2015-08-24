@@ -30,6 +30,15 @@ vspeed = -0.3
 alarm[0] = 30
 alarm[1] = 90
 image_alpha = 0;
+
+
+
+// TODO STOP MUSIC PLAYING
+// ahora están puestas todas por vaguería
+audio_stop_sound(music_main);
+audio_stop_sound(music_menu);
+audio_stop_sound(music_boss);
+audio_stop_sound(music_credits);
 </string>
           </argument>
         </arguments>

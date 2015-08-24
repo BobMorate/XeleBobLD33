@@ -32,6 +32,13 @@ fntBitmapFont = font_add_sprite(spr_bitmapfont, ord("!"), 1, 1);
 global.ps = part_system_create();
 blood_particle_init();
 
+
+//FOR TESTING PURPOSES: start playing a music loop
+
+//audio_play_sound(music_menu, 1000, true);
+audio_play_sound(music_main, 1000, true);
+//audio_play_sound(music_boss, 1000, true);
+//audio_play_sound(music_credits, 1000, true);
 </string>
           </argument>
         </arguments>

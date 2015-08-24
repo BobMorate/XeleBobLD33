@@ -109,6 +109,7 @@ state = player1_move_state;
             <kind>1</kind>
             <string>if hp &lt;=0   
     {
+    audio_play_sound(p1_p2_dies, 3, false);
     instance_create(x,y,obj_player1_dead);
     instance_destroy();
     }
@@ -157,38 +158,6 @@ y+=vspd;
         </arguments>
       </action>
     </event>
-    <event eventtype="4" ename="obj_bossslash">
-      <action>
-        <libid>1</libid>
-        <id>603</id>
-        <kind>7</kind>
-        <userelative>0</userelative>
-        <isquestion>0</isquestion>
-        <useapplyto>-1</useapplyto>
-        <exetype>2</exetype>
-        <functionname></functionname>
-        <codestring></codestring>
-        <whoName>self</whoName>
-        <relative>0</relative>
-        <isnot>0</isnot>
-        <arguments>
-          <argument>
-            <kind>1</kind>
-            <string>if can_be_hurt = 1
-    {
-    i = instance_create(x,y,obj_playerdamage);
-    i.str = string("10")
-    hp -= 10;    
-    part_particles_create(global.ps, x, y, global.part_blood, 30);
-    }
-
-state = hurt_state
-
-</string>
-          </argument>
-        </arguments>
-      </action>
-    </event>
     <event eventtype="4" ename="obj_medpack">
       <action>
         <libid>1</libid>
@@ -206,7 +175,9 @@ state = hurt_state
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>hp += 20;
+            <string>audio_play_sound(medpac,7,false);
+
+hp += 20;
 i = instance_create(x,y,obj_playerheal);
     i.str = string("20")
 if hp &gt; 50  
@@ -218,6 +189,42 @@ with other
     {
     instance_destroy()
     }
+
+</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
+    <event eventtype="4" ename="obj_bossslash">
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>audio_play_sound(boss_blow, 3, false);
+
+if can_be_hurt = 1
+    {
+    i = instance_create(x,y,obj_playerdamage);
+    i.str = string("10")
+    hp -= 10;    
+    part_particles_create(global.ps, x, y, global.part_blood, 30);
+
+        audio_play_sound(p1_hurt, 3, false);
+    }
+
+state = hurt_state
 
 </string>
           </argument>
@@ -241,13 +248,18 @@ with other
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>if can_be_hurt = 1
+            <string>audio_play_sound(p1_p2_hit, 3, false);
+
+if can_be_hurt = 1
     {
     i = instance_create(x,y,obj_playerdamage);
     i.str = string("5")
-    hp -= 50;    
+//    hp -= 50;     // quitado el daño para probar sfx
     part_particles_create(global.ps, x, y, global.part_blood, 10);
+    
+    audio_play_sound(p1_hurt, 3, false);
     }
+    
 
 state = hurt_state
 

@@ -25,7 +25,9 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>owner = other.id;
+            <string>audio_play_sound(soldier_attack, 3, false);
+
+owner = other.id;
 image_speed=0.5;
 image_angle = owner.direction;
 </string>

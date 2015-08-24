@@ -4,7 +4,37 @@
     <Config>Configs\Default</Config>
   </Configs>
   <NewExtensions/>
-  <sounds name="sound"/>
+  <sounds name="sound">
+    <sounds name="sfx">
+      <sound>sound\boss_hit</sound>
+      <sound>sound\boss_blow</sound>
+      <sound>sound\boss_hurt</sound>
+      <sound>sound\boss_dies</sound>
+      <sound>sound\civilian_hurt</sound>
+      <sound>sound\civilian_dies</sound>
+      <sound>sound\medpac</sound>
+      <sound>sound\p1_hurt</sound>
+      <sound>sound\p2_hurt</sound>
+      <sound>sound\p1_p2_hit</sound>
+      <sound>sound\p1_p2_dies</sound>
+      <sound>sound\p1_p2_attack</sound>
+      <sound>sound\soldier_hit</sound>
+      <sound>sound\soldier_hurt1</sound>
+      <sound>sound\soldier_hurt2</sound>
+      <sound>sound\soldier_hurt3</sound>
+      <sound>sound\soldier_dies1</sound>
+      <sound>sound\soldier_dies2</sound>
+      <sound>sound\soldier_dies3</sound>
+      <sound>sound\soldier_attack</sound>
+      <sound>sound\boss_attack</sound>
+    </sounds>
+    <sounds name="music">
+      <sound>sound\music_menu</sound>
+      <sound>sound\music_main</sound>
+      <sound>sound\music_boss</sound>
+      <sound>sound\music_credits</sound>
+    </sounds>
+  </sounds>
   <sprites name="sprites">
     <sprites name="Player1Sprites">
       <sprite>sprites\spr_player1_down</sprite>

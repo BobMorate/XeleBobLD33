@@ -17,16 +17,33 @@ Acortar el juego y el mapa:
 
 Lista de efectos de sonido:
 
-Player 1 dañado (gruñido)
-Player 2 dañado (gruñido 2)
-Player 1 muerto (aaaaaaaaaaargh)
-Player 2 muerto (aaaaaaaaaaaargh 2)
-Player 1 slash
-Player 2 slash
-Civil herido
-Civil Muerto
-Soldado herido x3
-Soldado muerto x3
-Disparos?
-Coger item
-"Attention" de antes de un miniboss
+	boss hit (cuando slash colisiona con boss)
+	boss blow  (cuando ALGUIEN es alcanzado por el boss)
+	boss hurt (cuando boss es dañado - pueden alcanzarle y que no reciba daño porque canbehurt sea 0)
+	boss dies (cuando boss muere - creación del objeto dead boss)
+	boss attack (swing/slash del boss)
+
+- civilian hurt
+- civilian dies
+
+	medpac
+
+	p1 hurt
+	p2 hurt
+
+	p1 hit
+	p2 hit (es el mismo)
+
+	p1 dies
+	p2 dies (es el mismo)
+
+	p1 attack
+	p2 attack (es el mismo)
+
+	soldier hit
+
+	soldier hurt 1-2-3
+
+	soldier dies 1-2-3
+
+	soldier attack
