@@ -254,7 +254,7 @@ if can_be_hurt = 1
     {
     i = instance_create(x,y,obj_playerdamage);
     i.str = string("5")
-//    hp -= 50;     // quitado el daño para probar sfx
+    hp -= 5;
     part_particles_create(global.ps, x, y, global.part_blood, 10);
     
     audio_play_sound(p1_hurt, 3, false);

@@ -97,10 +97,13 @@
       <sprite>sprites\spr_healingfont</sprite>
       <sprite>sprites\spr_box</sprite>
       <sprite>sprites\spr_closet</sprite>
+      <sprite>sprites\spr_pl1_button</sprite>
+      <sprite>sprites\spr_pl2_button</sprite>
     </sprites>
     <sprite>sprites\sprite50</sprite>
     <sprite>sprites\spr_title_screen</sprite>
     <sprite>sprites\spr_button</sprite>
+    <sprite>sprites\spr_logo</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\bck_floor1_1</background>
@@ -109,6 +112,9 @@
     <background>background\bck_cavetiles</background>
     <background>background\bck_pod</background>
     <background>background\background5</background>
+    <background>background\bck_players</background>
+    <background>background\bck_controls</background>
+    <background>background\bck_credits</background>
   </backgrounds>
   <paths name="paths"/>
   <scripts name="scripts">
@@ -147,7 +153,6 @@
     <object>objects\obj_dead_boss</object>
     <object>objects\obj_player1_dead</object>
     <object>objects\obj_player2_dead</object>
-    <object>objects\obj_beam</object>
     <objects name="Placeholder objects">
       <object>objects\obj_separator_placeholder</object>
     </objects>
@@ -163,10 +168,28 @@
     </objects>
     <object>objects\obj_closet</object>
     <object>objects\obj_titlescreen</object>
+    <object>objects\obj_finale</object>
+    <object>objects\obj_anykey</object>
+    <object>objects\obj_LD</object>
+    <object>objects\obj_ending</object>
+    <object>objects\obj_logo</object>
+    <object>objects\obj_1P_button</object>
+    <object>objects\obj_2P_button</object>
+    <object>objects\obj_overlord</object>
+    <object>objects\obj_bossencountermusic</object>
+    <objects name="Credits">
+      <object>objects\obj_BobPortrait</object>
+      <object>objects\obj_xeleportrait</object>
+    </objects>
   </objects>
   <rooms name="rooms">
-    <room>rooms\room2</room>
+    <room>rooms\rm_title</room>
+    <room>rooms\rm_chooseplayers</room>
+    <room>rooms\rm_tutorial</room>
     <room>rooms\rm_level1_1alt</room>
+    <room>rooms\rm_ending</room>
+    <room>rooms\rm_credits</room>
+    <room>rooms\rm_LD</room>
     <room>rooms\rm_sandbox</room>
   </rooms>
   <help>

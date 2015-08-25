@@ -28,6 +28,11 @@
             <string>//sets the Bitmap Font
 fntBitmapFont = font_add_sprite(spr_bitmapfont, ord("!"), 1, 1);
 
+if players = 2
+    {
+    instance_create(256,320,obj_player2)
+    }
+
 //Enables the global vars for Particle system
 global.ps = part_system_create();
 blood_particle_init();
@@ -35,7 +40,7 @@ blood_particle_init();
 
 //FOR TESTING PURPOSES: start playing a music loop
 
-audio_play_sound(music_menu, 1000, true);
+//audio_play_sound(music_menu, 1000, true);
 //audio_play_sound(music_main, 1000, true);
 //audio_play_sound(music_boss, 1000, true);
 //audio_play_sound(music_credits, 1000, true);

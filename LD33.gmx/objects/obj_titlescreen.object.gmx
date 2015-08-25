@@ -105,7 +105,25 @@ image_alpha = 0;
     image_alpha += 0.05
     }
 
+if(gamepad_button_check(0,gp_face1))
+    {
+    room_goto_next();
+    }
 
+if(gamepad_button_check(1,gp_face1))
+    {
+    room_goto_next();
+    }
+
+if(gamepad_button_check(0,gp_start))
+    {
+    room_goto_next();
+    }
+
+if(gamepad_button_check(1,gp_start))
+    {
+    room_goto_next();
+    }        
 </string>
           </argument>
         </arguments>
